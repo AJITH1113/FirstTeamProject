@@ -1,9 +1,11 @@
 import React from "react";
+import Page2 from "./components/Page2"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
 import "./App.css";
 const App = () => {
   return (
+    <>
     <div className="navbar">
       <BrowserRouter>
         <Routes>
@@ -12,6 +14,8 @@ const App = () => {
         </Routes>
       </BrowserRouter>
     </div>
+    <Page2/>
+    </>
   );
 };
 
