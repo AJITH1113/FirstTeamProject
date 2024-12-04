@@ -1,0 +1,11 @@
+.navbar {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.navigation_links Link {
+  text-decoration: none;
+  padding: 10px;
+}
