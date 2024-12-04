@@ -1,0 +1,11 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  padding: 12px 2%;
+  background-color: dodgerblue;
+}
