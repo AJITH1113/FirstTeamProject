@@ -5,6 +5,7 @@ const App = () => {
   return (
     <div className="navbar">
       <h1>Logo</h1>
+      <p>Ecommerce website</p>
     </div>
   );
 };
