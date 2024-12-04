@@ -1,0 +1,38 @@
+.page2-container {
+
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .heading1 {
+    position: relative;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    
+    
+   
+  }
+  
+  .plant-category-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .plant-category {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .plant-category img {
+    width: 180px;
+    height: 200px;
+  }
+  
+  .quote {
+    font-style: italic;
+    margin-top: 20px;
+    font-size: large;
+  }
